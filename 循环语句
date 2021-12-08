@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	int line = 0;
+	printf("加入比特\n");
+	while (line <= 20000)
+	{
+		printf("桥一行\n");
+		line++;
+	}
+	printf("好\n");
+	return 0;
+}
